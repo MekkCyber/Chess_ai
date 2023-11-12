@@ -252,9 +252,7 @@ def drawEndGameText(screen, text):
 
 
 def animateMove(move, screen, board, clock):
-    """
-    Animating a move
-    """
+
     global colors
     d_row = move.end_row - move.start_row
     d_col = move.end_col - move.start_col

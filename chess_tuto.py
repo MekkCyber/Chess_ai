@@ -29,12 +29,11 @@ captured_pieces_black = []
 # 0 : whites turn no selection
 # 1 : whites turn piece selected
 # 2 : black turn no selection
-# 3 : black turn piece selected
+# 3 : black turn piece selected 
 turn_step = 0
 selection = 100
 valid_moves = []
 
-# Load images
 black_queen = pygame.image.load('images/bQ.png')
 black_queen = pygame.transform.scale(black_queen, (80, 80))
 black_queen_small = pygame.transform.scale(black_queen, (45, 45))
